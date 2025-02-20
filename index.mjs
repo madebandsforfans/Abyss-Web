@@ -56,7 +56,7 @@ server.on("upgrade", (req, socket, head) => {
 
 server.on("listening", () => {
   const address = server.address();
-  console.log(chalk.green("ABYSS: Abyss Web started."));
+  console.log(chalk.green("JohnAndJaicee: JohnAndJaicee Web started."));
   console.log("Listening on:");
   console.log(`\thttp://localhost:${address.port}`);
   console.log(`\thttp://${hostname()}:${address.port}`);
